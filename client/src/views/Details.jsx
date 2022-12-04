@@ -42,9 +42,9 @@ const Details = () => {
           <div className='list'>
               <p>Pet Type: {details.petType}</p>
               <p>Description: {details.petDesc}</p>
-              <p>Skills: {details.sKillOne}</p>
-              <p>{details.sKillTwo}</p>
-              <p>{details.sKillThree}</p>
+              <p>Skills: {details.skillOne}</p>
+              <p>{details.skillTwo}</p>
+              <p>{details.skillThree}</p>
               <div className='flex'>
               <button class="btn btn-success" onClick={() => setCount(count + 1)}>Like {details.petName}</button>
               <p>{count} like(s)</p>
